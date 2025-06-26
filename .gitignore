@@ -1,32 +1,55 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Build artifacts
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+*.dylib
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+_build/
+out/
+asset/
+back_up/
+
+# Compiled dynamic libraries
+*.lo
+*.la
+
+# VS Code settings
+.vscode/
+
+# CLion settings
+.idea/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj
+
+# Qt Creator
+*.pro.user*
+*.qmake.stash
+
+# Debug and logs
+*.log
+*.stackdump
+core
+
+# Misc
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore test outputs
+test-output/
